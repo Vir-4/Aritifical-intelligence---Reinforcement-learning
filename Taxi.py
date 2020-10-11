@@ -65,4 +65,10 @@ for episode in range(train_episodes):
 
 print("Training score over time: " + str(sum(training_rewards) / train_episodes))
 
+plt.plot(randomgraph)
+plt.ylabel('Reward')
+plt.xlabel('Episodes')
+plt.title("Reward Vs Episode")
+plt.show()
+
 # Code reference:https://www.datamachinist.com/reinforcement-learning/part-5-q-learning-to-solve-the-taxi-problem/ ,
