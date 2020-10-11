@@ -65,4 +65,4 @@ for episode in range(train_episodes):
 
 print("Training score over time: " + str(sum(training_rewards) / train_episodes))
 
-# CODE IS RETRIVED FROM https://www.datamachinist.com/reinforcement-learning/part-5-q-learning-to-solve-the-taxi-problem/ ,
+# Code reference:https://www.datamachinist.com/reinforcement-learning/part-5-q-learning-to-solve-the-taxi-problem/ ,
